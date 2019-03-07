@@ -1,0 +1,17 @@
+name: Crates
+version: 1.0.0
+description: Crates Plugin by HypexMC Development Team
+main: me.starboy.files.MainCrates
+depend:
+  - Core
+commands:
+  crates:
+    description: Opens the Crate Menu
+    usage: /crates
+  realms:
+    description: Opens the Realms Menu
+    usage: /realms
+  omega:
+    description: Only for Players with Omega Rank.
+    usage: /omega
+
